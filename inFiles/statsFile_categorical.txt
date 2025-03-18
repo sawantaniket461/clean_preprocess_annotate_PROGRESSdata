@@ -1,0 +1,17 @@
+antiviral
+antipsychotic
+antiplatelet_drug
+sex
+art_hypert
+Nikotin
+pos_history
+hyp_lipid
+myocard_inf
+Stent_impl
+5HT2-Antagonist
+cardiac glycoside
+Acetylcystein
+other antihypertensive
+Alpha agonist
+Statine
+tnt_pos

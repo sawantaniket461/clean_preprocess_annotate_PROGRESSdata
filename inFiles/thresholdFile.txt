@@ -1,0 +1,8 @@
+#thresholdFile format  ==> <columnName>;<min>;<max>
+gluc_a;20;999
+ldh_max;0;6000
+platelets;0;1000
+leuk_a;500;50000
+ef;0;80
+groesse;145;5000
+gewicht;45;5000

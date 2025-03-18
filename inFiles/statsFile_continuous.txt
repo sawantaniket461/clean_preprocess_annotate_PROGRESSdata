@@ -1,0 +1,9 @@
+gewicht,mean,median
+groesse,mean,median
+syst_pressure,mean,median
+diast_pressure,mean
+Unters_alter,mean,median
+heartrate,mean,median
+monoc_a,mean
+hba1c,mean
+chol_a_total,median

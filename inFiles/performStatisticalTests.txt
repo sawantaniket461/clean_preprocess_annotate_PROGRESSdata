@@ -1,0 +1,17 @@
+#This input File helps perform statistical tests on the columns.
+# to perform mann-whittney --> MW-U
+# to perform kruskal-wallis test --> kruskal
+# to perform chi-square test --> chisq
+# Format -> column 1, column 2, test. [If one of the columns is continuous data, it is necesssary for the first column to be continuous data] 
+#a space character [' '] is must after every comma ',' 
+chol_a_total, nikotin, MW-U
+nikotin, diabetes, chisq
+bmi, diabetes, MW-U
+chol_a_total, rentrop_grading, kruskal
+bmi, collateral_flow_grade, kruskal
+unters_alter, collateral_flow_grade, kruskal
+unters_alter, rentrop_grading, kruskal
+nikotin, collateral_flow_grade, chisq
+collateral_flow_grade, diabetes, chisq
+nikotin, rentrop_grading, chisq
+rentrop_grading, diabetes, chisq
