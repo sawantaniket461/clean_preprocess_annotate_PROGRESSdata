@@ -2,7 +2,7 @@
 
 
 # What is the tool for?
-The clean_annotate_data_v1_03 tool allows you to perform basic cleaning and annotation of the clinical data as obtained from the PROGRESS project.
+The clean_annotate_data_v1_04 tool allows you to perform basic cleaning and annotation of the clinical data as obtained from the PROGRESS project.
 The tool provides for an efficient and portable way to process, clean and annotate the clinical data from PROGRESS project and can be used by the clinical collaborators to gain insights from their data. Moreover, the tool also performs basic statistical tests over the required variables!
 
 # What are the pre-requisites to run this tool?
@@ -48,7 +48,7 @@ If the docker image is not available, you may create the same using the steps me
 ## Step 2: Load the docker image in the system.
 
 ```
-docker load -i clean_annotate_data_v1_03.tar
+docker load -i clean_annotate_data_v1_04.tar
 ```
 ## Step 3: Run the image.
 
@@ -140,8 +140,8 @@ l.	**numberOfCollaterals.txt**: File includes the information for number of coll
 >If the docker image is not available, download entire folder /docker and perform the following steps:
 ```
  	cd ./docker/
- 	docker build -t clean_annotate_data_v1_03:latest ./
- 	docker save -o clean_annotate_data_v1_03.tar clean_annotate_data_v1_03:latest
+ 	docker build -t clean_annotate_data_v1_04:latest ./
+ 	docker save -o clean_annotate_data_v1_04.tar clean_annotate_data_v1_04:latest
 ```
 The docker image would be saved in the folder. This can then be used by following steps 2 and later.
 
